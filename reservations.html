@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservations - Le Zink</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon-Z.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body class="reservations-page">
+
+<header>
+    <nav>
+        <div class="logo">Le Zink</div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="reservations.html">Réservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">À propos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1 class="reservation-title">AJOUTER UNE RÉSERVATION</h1>
+
+    <div class="reservation-info">
+        <p>📞 Réservez en ligne ou appelez le <strong>+216 55 123 456</strong></p>
+        <p>💳 Aucun acompte requis</p>
+        <p>⏰ Annulation possible jusqu’à 2 heures avant</p>
+    </div>
+
+    <form action="#" method="post" class="reservation-form">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Téléphone</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Heure</label>
+        <input type="time" id="time" name="time" required>
+        <label for="guests">Nombre de personnes</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+        
+        <button type="submit">Envoyer la réservation</button>
+
+    </form>
+</main>
+
+<footer>
+    <section class="social-links">
+        <p>&copy; 2025 Le Zink. Tous droits réservés.</p>
+        <p>Suivez-nous :<a href="https://www.instagram.com/lezinktunisia/">Instagram</a> |<a href="https://facebook.com/LEZINK.CompteOfficiel">Facebook</a></p>
+    </section>
+</footer>
+
+</body>
+</html>
